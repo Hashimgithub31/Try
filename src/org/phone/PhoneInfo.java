@@ -21,6 +21,12 @@ public class PhoneInfo {
 	
 	private void osName() {
 		System.out.println("os type is lollipop");
+		
+		
+	}
+	
+	private void imei() {
+		System.out.println("imei number is valid");
 	}
 	
 	public static void main(String[] args) {
@@ -30,6 +36,7 @@ public class PhoneInfo {
 		p.camera();
 		p.storage();
 		p.osName();
+		p.imei();
 	}
 
 }
